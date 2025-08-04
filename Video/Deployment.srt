@@ -1,0 +1,1631 @@
+1
+00:00:00,000 --> 00:00:00,580
+First,
+
+2
+00:00:01,139 --> 00:00:02,839
+we need to create
+
+3
+00:00:02,839 --> 00:00:03,980
+a Blob Storage
+
+4
+00:00:03,980 --> 00:00:04,540
+Account in Azure.
+
+5
+00:00:08,679 --> 00:00:09,519
+Please make sure that
+
+6
+00:00:09,519 --> 00:00:10,480
+when you create a account,
+
+7
+00:00:10,980 --> 00:00:11,539
+you will follow
+
+8
+00:00:11,539 --> 00:00:14,439
+the steps in the
+
+9
+00:00:14,439 --> 00:00:14,439
+video description.
+
+10
+00:00:22,100 --> 00:00:22,399
+In the process of
+
+11
+00:00:22,399 --> 00:00:23,219
+the Blob resource preparation,
+
+12
+00:00:24,620 --> 00:00:25,579
+do not close the
+
+13
+00:00:25,579 --> 00:00:26,280
+current interface.
+
+14
+00:00:26,280 --> 00:00:27,160
+Next,
+
+15
+00:00:27,899 --> 00:00:29,219
+we need to reopen
+
+16
+00:00:29,320 --> 00:00:30,359
+an Azure window
+
+17
+00:00:30,359 --> 00:00:31,500
+and start to deploy
+
+18
+00:00:31,579 --> 00:00:32,539
+Azure Functions.
+
+19
+00:00:33,299 --> 00:00:33,880
+Please make sure
+
+20
+00:00:33,880 --> 00:00:34,600
+that when you create,
+
+21
+00:00:35,409 --> 00:00:35,759
+you will follow
+
+22
+00:00:35,759 --> 00:00:38,619
+the steps in the
+
+23
+00:00:38,619 --> 00:00:38,619
+video description.
+
+24
+00:00:43,579 --> 00:00:44,259
+Be careful to choose
+
+25
+00:00:44,259 --> 00:00:45,600
+Python and the
+
+26
+00:00:45,600 --> 00:00:46,420
+largest instance size.
+
+27
+00:00:58,500 --> 00:00:59,140
+When you wait for
+
+28
+00:00:59,320 --> 00:00:59,619
+the Function
+
+29
+00:00:59,619 --> 00:01:00,140
+app to be created,
+
+30
+00:01:00,899 --> 00:01:01,390
+we can.
+
+31
+00:01:20,420 --> 00:01:21,500
+Click Storage Account
+
+32
+00:01:22,000 --> 00:01:22,980
+and click Tables
+
+33
+00:01:22,980 --> 00:01:24,299
+to create a new
+
+34
+00:01:24,299 --> 00:01:24,879
+table called Task.
+
+35
+00:01:28,980 --> 00:01:31,900
+Click the task button
+
+36
+00:01:31,900 --> 00:01:31,900
+to open the task.
+
+37
+00:01:34,579 --> 00:01:35,980
+Click the task button
+
+38
+00:01:35,980 --> 00:01:35,980
+to open the task.
+
+39
+00:01:39,540 --> 00:01:40,939
+Click the task button
+
+40
+00:01:40,939 --> 00:01:40,939
+to open the task.
+
+41
+00:01:40,939 --> 00:01:42,640
+Click the task button
+
+42
+00:01:42,640 --> 00:01:42,640
+to open the task.
+
+43
+00:01:42,640 --> 00:01:42,900
+Click the task button
+
+44
+00:01:42,900 --> 00:01:42,900
+to open the task.
+
+45
+00:01:42,900 --> 00:01:43,480
+Click the task button
+
+46
+00:01:43,480 --> 00:01:43,480
+to open the task.
+
+47
+00:01:43,480 --> 00:01:43,519
+Click the task button
+
+48
+00:01:43,519 --> 00:01:43,519
+to open the task.
+
+49
+00:01:46,219 --> 00:01:49,140
+Click the task button
+
+50
+00:01:49,140 --> 00:01:49,140
+to open the task.
+
+51
+00:01:51,819 --> 00:01:53,219
+Click the task button
+
+52
+00:01:53,219 --> 00:01:53,219
+to open the task.
+
+53
+00:01:56,780 --> 00:01:58,180
+Click the task button
+
+54
+00:01:58,180 --> 00:01:58,180
+to open the task.
+
+55
+00:01:58,180 --> 00:01:59,879
+Click the task button
+
+56
+00:01:59,879 --> 00:01:59,879
+to open the task.
+
+57
+00:01:59,879 --> 00:02:00,140
+Click the task button
+
+58
+00:02:00,140 --> 00:02:00,140
+to open the task.
+
+59
+00:02:00,140 --> 00:02:00,719
+Click the task button
+
+60
+00:02:00,719 --> 00:02:00,719
+to open the task.
+
+61
+00:02:00,719 --> 00:02:00,760
+Click the task button
+
+62
+00:02:00,760 --> 00:02:00,760
+to open the task.
+
+63
+00:02:03,459 --> 00:02:06,379
+Click the task button
+
+64
+00:02:06,379 --> 00:02:06,379
+to open the task.
+
+65
+00:02:09,060 --> 00:02:10,460
+Click the task button
+
+66
+00:02:10,460 --> 00:02:10,460
+to open the task.
+
+67
+00:02:14,020 --> 00:02:15,419
+Click the task button
+
+68
+00:02:15,419 --> 00:02:15,419
+to open the task.
+
+69
+00:02:15,419 --> 00:02:17,120
+Click the task button
+
+70
+00:02:17,120 --> 00:02:17,120
+to open the task.
+
+71
+00:02:17,120 --> 00:02:17,379
+Click the task button
+
+72
+00:02:17,379 --> 00:02:17,379
+to open the task.
+
+73
+00:02:17,379 --> 00:02:17,960
+Click the task button
+
+74
+00:02:17,960 --> 00:02:17,960
+to open the task.
+
+75
+00:02:17,960 --> 00:02:18,000
+Click the task button
+
+76
+00:02:18,000 --> 00:02:18,000
+to open the task.
+
+77
+00:02:18,000 --> 00:02:18,219
+Click the task button
+
+78
+00:02:18,219 --> 00:02:18,219
+to open the task.
+
+79
+00:02:39,300 --> 00:02:39,699
+Next,
+
+80
+00:02:40,280 --> 00:02:41,360
+we will drag the
+
+81
+00:02:41,360 --> 00:02:42,819
+Azure Function in
+
+82
+00:02:42,819 --> 00:02:42,819
+the ASO package
+
+83
+00:02:42,819 --> 00:02:45,000
+into the VS code.
+
+84
+00:02:50,419 --> 00:02:51,219
+If you have not
+
+85
+00:02:51,219 --> 00:02:52,319
+installed the Azure
+
+86
+00:02:52,319 --> 00:02:52,879
+Function before,
+
+87
+00:02:52,979 --> 00:02:54,199
+this difference needs
+
+88
+00:02:54,199 --> 00:02:54,759
+to be installed first.
+
+89
+00:03:00,979 --> 00:03:01,680
+After installing the
+
+90
+00:03:01,680 --> 00:03:02,300
+Azure Function,
+
+91
+00:03:03,080 --> 00:03:04,199
+click the Azure
+
+92
+00:03:04,199 --> 00:03:04,580
+Little icon
+
+93
+00:03:04,699 --> 00:03:05,960
+and wait for the
+
+94
+00:03:05,960 --> 00:03:06,659
+Azure Local Project
+
+95
+00:03:06,659 --> 00:03:07,659
+Function to appear.
+
+96
+00:03:08,479 --> 00:03:10,360
+Click the cloud icon
+
+97
+00:03:10,439 --> 00:03:10,539
+on the right corner.
+
+98
+00:03:21,979 --> 00:03:23,379
+Enter the virtual
+
+99
+00:03:23,379 --> 00:03:23,379
+virtual virtual virtual
+
+100
+00:03:23,379 --> 00:03:23,379
+virtual virtual virtual
+
+101
+00:03:23,379 --> 00:03:23,379
+virtual virtual virtual
+
+102
+00:03:23,379 --> 00:03:23,379
+virtual virtual virtual
+
+103
+00:03:23,379 --> 00:03:24,080
+virtual virtual virtual
+
+104
+00:03:24,900 --> 00:03:28,020
+virtual virtual virtual
+
+105
+00:03:28,020 --> 00:03:28,979
+virtual virtual
+
+106
+00:03:28,979 --> 00:03:29,500
+virtual virtual virtual
+
+107
+00:03:29,500 --> 00:03:31,280
+virtual virtual virtual
+
+108
+00:03:31,280 --> 00:03:31,280
+virtual virtual virtual
+
+109
+00:03:31,280 --> 00:03:31,280
+virtual virtual virtual
+
+110
+00:03:31,280 --> 00:03:32,439
+virtual virtual virtual
+
+111
+00:03:32,439 --> 00:03:33,819
+virtual virtual
+
+112
+00:03:33,819 --> 00:03:35,080
+virtual virtual virtual
+
+113
+00:03:35,080 --> 00:03:37,219
+virtual virtual virtual
+
+114
+00:03:37,219 --> 00:03:37,219
+virtual virtual virtual
+
+115
+00:03:37,219 --> 00:03:37,219
+virtual virtual virtual
+
+116
+00:03:37,219 --> 00:03:37,219
+virtual virtual virtual
+
+117
+00:03:37,219 --> 00:03:37,219
+virtual virtual
+
+118
+00:03:37,219 --> 00:03:37,219
+virtual virtual virtual
+
+119
+00:03:37,219 --> 00:03:37,219
+virtual virtual virtual
+
+120
+00:03:37,219 --> 00:03:37,219
+virtual virtual
+
+121
+00:03:37,219 --> 00:03:37,219
+virtual virtual virtual
+
+122
+00:03:37,219 --> 00:03:37,219
+virtual virtual virtual
+
+123
+00:03:37,219 --> 00:03:37,219
+virtual virtual virtual
+
+124
+00:03:37,219 --> 00:03:37,219
+virtual virtual virtual
+
+125
+00:03:37,219 --> 00:03:37,219
+virtual virtual virtual
+
+126
+00:03:37,219 --> 00:03:37,219
+virtual virtual
+
+127
+00:03:37,219 --> 00:03:37,219
+virtual virtual virtual
+
+128
+00:03:37,219 --> 00:03:37,219
+virtual virtual virtual
+
+129
+00:03:37,219 --> 00:03:37,219
+virtual virtual virtual
+
+130
+00:03:37,219 --> 00:03:37,219
+virtual virtual virtual
+
+131
+00:03:37,219 --> 00:03:37,219
+virtual virtual virtual
+
+132
+00:03:37,219 --> 00:03:37,699
+virtual virtual
+
+133
+00:03:37,699 --> 00:03:37,699
+virtual virtual virtual
+
+134
+00:03:37,699 --> 00:03:37,699
+virtual virtual virtual
+
+135
+00:03:37,699 --> 00:03:37,699
+virtual virtual virtual
+
+136
+00:03:37,699 --> 00:03:37,699
+virtual virtual virtual
+
+137
+00:03:37,699 --> 00:03:37,699
+virtual virtual virtual
+
+138
+00:03:37,699 --> 00:03:37,699
+virtual virtual
+
+139
+00:03:37,699 --> 00:03:37,699
+virtual virtual virtual
+
+140
+00:03:37,699 --> 00:03:37,699
+virtual virtual virtual
+
+141
+00:03:37,699 --> 00:03:37,699
+virtual virtual virtual
+
+142
+00:03:37,699 --> 00:03:37,699
+virtual virtual virtual
+
+143
+00:03:37,699 --> 00:03:37,699
+virtual virtual virtual
+
+144
+00:03:37,699 --> 00:03:37,699
+virtual virtual
+
+145
+00:03:37,699 --> 00:03:41,419
+virtual virtual virtual
+
+146
+00:03:41,419 --> 00:03:41,419
+virtual virtual virtual
+
+147
+00:03:41,419 --> 00:03:41,419
+virtual virtual virtual
+
+148
+00:03:41,419 --> 00:03:41,419
+virtual virtual virtual
+
+149
+00:03:41,419 --> 00:03:41,419
+virtual virtual virtual
+
+150
+00:03:41,419 --> 00:03:41,580
+virtual virtual
+
+151
+00:03:41,580 --> 00:03:41,580
+virtual virtual virtual
+
+152
+00:03:41,580 --> 00:03:41,580
+virtual virtual virtual
+
+153
+00:03:41,580 --> 00:03:41,580
+virtual virtual virtual
+
+154
+00:03:41,580 --> 00:03:41,960
+virtual virtual virtual
+
+155
+00:03:41,960 --> 00:03:41,960
+virtual virtual virtual
+
+156
+00:03:41,960 --> 00:03:41,960
+virtual virtual
+
+157
+00:03:41,960 --> 00:03:41,960
+virtual virtual virtual
+
+158
+00:03:41,960 --> 00:03:42,580
+virtual virtual virtual
+
+159
+00:03:42,580 --> 00:03:42,580
+virtual virtual virtual
+
+160
+00:03:42,580 --> 00:03:42,919
+virtual virtual virtual
+
+161
+00:03:42,919 --> 00:03:43,099
+virtual virtual virtual
+
+162
+00:03:43,099 --> 00:03:43,099
+virtual virtual
+
+163
+00:03:43,099 --> 00:03:43,180
+virtual virtual virtual
+
+164
+00:03:43,180 --> 00:03:43,300
+virtual virtual virtual
+
+165
+00:03:43,300 --> 00:03:43,300
+virtual virtual virtual
+
+166
+00:03:43,300 --> 00:03:43,300
+virtual virtual virtual
+
+167
+00:03:43,300 --> 00:03:43,300
+virtual virtual virtual
+
+168
+00:03:43,300 --> 00:03:43,300
+virtual virtual
+
+169
+00:03:43,300 --> 00:03:43,300
+virtual virtual virtual
+
+170
+00:03:44,780 --> 00:03:46,000
+virtual virtual virtual
+
+171
+00:03:46,000 --> 00:03:46,000
+virtual virtual
+
+172
+00:03:46,000 --> 00:03:46,000
+virtual virtual virtual
+
+173
+00:03:46,000 --> 00:03:46,000
+virtual virtual virtual
+
+174
+00:03:46,000 --> 00:03:46,000
+virtual virtual virtual
+
+175
+00:03:46,000 --> 00:03:46,000
+virtual virtual virtual
+
+176
+00:03:46,060 --> 00:03:46,259
+When you go
+
+177
+00:03:46,259 --> 00:03:46,780
+to the cloud,
+
+178
+00:03:47,199 --> 00:03:49,300
+we can do the
+
+179
+00:03:49,300 --> 00:03:50,539
+environment creation
+
+180
+00:03:50,539 --> 00:03:51,800
+and configuration
+
+181
+00:03:51,800 --> 00:03:52,500
+of Power Platform.
+
+182
+00:03:54,539 --> 00:03:55,099
+Please make sure
+
+183
+00:03:55,099 --> 00:03:55,580
+that when you
+
+184
+00:03:55,659 --> 00:03:56,340
+create the account,
+
+185
+00:03:56,599 --> 00:03:59,620
+follow the steps
+
+186
+00:03:59,620 --> 00:04:00,300
+selected in the
+
+187
+00:04:00,300 --> 00:04:00,300
+video description.
+
+188
+00:04:39,060 --> 00:04:40,500
+After creating
+
+189
+00:04:40,500 --> 00:04:40,660
+the environment,
+
+190
+00:04:41,259 --> 00:04:42,259
+you need to allow
+
+191
+00:04:42,339 --> 00:04:44,220
+publishing of canvas apps
+
+192
+00:04:44,279 --> 00:04:45,459
+with code components
+
+193
+00:04:45,639 --> 00:04:45,980
+to the cloud.
+
+194
+00:04:45,980 --> 00:04:48,420
+Open the function.
+
+195
+00:04:56,319 --> 00:04:57,060
+And set the email
+
+196
+00:04:57,060 --> 00:04:59,339
+attachment size to the largest.
+
+197
+00:05:05,500 --> 00:05:05,959
+Next,
+
+198
+00:05:06,540 --> 00:05:08,160
+we create PowerPages.
+
+199
+00:05:10,100 --> 00:05:10,699
+Select the PowerPages.
+
+200
+00:05:15,540 --> 00:05:16,620
+We can directly select
+
+201
+00:05:16,620 --> 00:05:18,079
+FAQ model to
+
+202
+00:05:18,079 --> 00:05:18,819
+create the powerpoint.
+
+203
+00:06:01,899 --> 00:06:02,040
+Select the PowerPages.
+
+204
+00:06:02,040 --> 00:06:02,779
+When you wait for Power
+
+205
+00:06:02,779 --> 00:06:03,810
+Pages to start creating,
+
+206
+00:06:04,009 --> 00:06:05,759
+we go back to VS
+
+207
+00:06:05,759 --> 00:06:07,240
+Studio and check if the
+
+208
+00:06:07,240 --> 00:06:08,259
+function app has been
+
+209
+00:06:08,259 --> 00:06:09,579
+successfully deployed.
+
+210
+00:06:11,220 --> 00:06:11,959
+If there is a
+
+211
+00:06:12,019 --> 00:06:13,660
+no-htt
+
+212
+00:06:13,779 --> 00:06:14,160
+p-triggers
+
+213
+00:06:14,160 --> 00:06:14,480
+found in the image,
+
+214
+00:06:14,939 --> 00:06:16,459
+we need to do the
+
+215
+00:06:16,459 --> 00:06:17,680
+same step again.
+
+216
+00:06:18,220 --> 00:06:19,860
+That is, click the
+
+217
+00:06:19,860 --> 00:06:20,420
+Cloud button again,
+
+218
+00:06:21,120 --> 00:06:22,180
+select the function
+
+219
+00:06:22,180 --> 00:06:23,300
+app and wait
+
+220
+00:06:23,300 --> 00:06:23,819
+for confirmation.
+
+221
+00:06:44,160 --> 00:06:45,560
+Then, we can create
+
+222
+00:06:45,560 --> 00:06:50,279
+the PowerPages.
+
+223
+00:07:19,459 --> 00:07:19,680
+We can create
+
+224
+00:07:19,680 --> 00:07:20,259
+the PowerPages.
+
+225
+00:07:20,259 --> 00:07:20,480
+After the talk,
+
+226
+00:07:20,899 --> 00:07:22,139
+click the View Out
+
+227
+00:07:22,139 --> 00:07:23,060
+puts button and
+
+228
+00:07:23,060 --> 00:07:24,220
+stop at this interface.
+
+229
+00:07:24,639 --> 00:07:25,660
+When the file is
+
+230
+00:07:25,660 --> 00:07:26,079
+installed and the
+
+231
+00:07:26,079 --> 00:07:26,620
+solution is solved,
+
+232
+00:07:26,699 --> 00:07:28,420
+we will use these
+
+233
+00:07:28,420 --> 00:07:28,819
+information.
+
+234
+00:07:31,620 --> 00:07:32,120
+Next,
+
+235
+00:07:33,019 --> 00:07:33,699
+we go back to
+
+236
+00:07:33,699 --> 00:07:34,579
+Azure Blob,
+
+237
+00:07:34,819 --> 00:07:34,920
+the interface that
+
+238
+00:07:34,920 --> 00:07:35,500
+does not belong
+
+239
+00:07:35,500 --> 00:07:35,779
+to the resources.
+
+240
+00:07:36,639 --> 00:07:38,079
+Click the Contain
+
+241
+00:07:38,120 --> 00:07:38,660
+ers on the left.
+
+242
+00:07:39,139 --> 00:07:40,579
+Add a name for the
+
+243
+00:07:40,579 --> 00:07:42,459
+container and allow it to
+
+244
+00:07:42,459 --> 00:07:43,139
+be password-respected.
+
+245
+00:07:55,420 --> 00:07:57,259
+Click the Access Keys
+
+246
+00:07:57,259 --> 00:07:57,740
+on the left and
+
+247
+00:07:57,740 --> 00:07:58,939
+stop at this interface.
+
+248
+00:07:59,420 --> 00:08:00,220
+When the file is
+
+249
+00:08:00,220 --> 00:08:00,600
+installed and the
+
+250
+00:08:00,600 --> 00:08:01,139
+solution is solved,
+
+251
+00:08:01,329 --> 00:08:02,680
+we will use these
+
+252
+00:08:02,680 --> 00:08:02,779
+information.
+
+253
+00:08:05,019 --> 00:08:05,519
+Next,
+
+254
+00:08:06,259 --> 00:08:06,959
+we go back to the
+
+255
+00:08:06,959 --> 00:08:07,740
+PowerApps interface
+
+256
+00:08:07,740 --> 00:08:09,740
+and start creating SharePoint.
+
+257
+00:08:23,420 --> 00:08:24,240
+Please make sure that
+
+258
+00:08:24,240 --> 00:08:29,300
+every step selected in
+
+259
+00:08:29,300 --> 00:08:29,300
+the video is followed
+
+260
+00:08:29,300 --> 00:08:29,300
+by the account number.
+
+261
+00:08:53,419 --> 00:08:54,820
+Click the SharePoint.
+
+262
+00:08:54,820 --> 00:08:54,940
+Click the SharePoint.
+
+263
+00:08:56,639 --> 00:08:58,039
+Click the SharePoint.
+
+264
+00:08:59,759 --> 00:09:02,179
+Click the SharePoint.
+
+265
+00:09:02,179 --> 00:09:03,000
+Click the SharePoint.
+
+266
+00:09:03,039 --> 00:09:04,440
+Click the SharePoint.
+
+267
+00:09:07,019 --> 00:09:07,080
+Click the SharePoint.
+
+268
+00:09:08,899 --> 00:09:09,000
+Click the SharePoint.
+
+269
+00:09:09,139 --> 00:09:10,399
+Click the SharePoint.
+
+270
+00:09:13,559 --> 00:09:14,960
+Click the SharePoint.
+
+271
+00:09:14,960 --> 00:09:15,080
+Click the SharePoint.
+
+272
+00:09:16,779 --> 00:09:18,179
+Click the SharePoint.
+
+273
+00:09:19,899 --> 00:09:22,320
+Click the SharePoint.
+
+274
+00:09:22,320 --> 00:09:23,139
+Click the SharePoint.
+
+275
+00:09:23,179 --> 00:09:24,580
+Click the SharePoint.
+
+276
+00:09:27,159 --> 00:09:27,220
+Click the SharePoint.
+
+277
+00:09:29,039 --> 00:09:29,139
+Click the SharePoint.
+
+278
+00:09:29,279 --> 00:09:30,539
+Click the SharePoint.
+
+279
+00:09:46,960 --> 00:09:50,100
+Click the SharePoint.
+
+280
+00:09:50,100 --> 00:09:50,659
+and list.
+
+281
+00:09:59,779 --> 00:10:00,659
+Please make sure that
+
+282
+00:10:00,659 --> 00:10:01,620
+when you create a account,
+
+283
+00:10:02,169 --> 00:10:02,659
+you will follow
+
+284
+00:10:02,659 --> 00:10:05,600
+the steps in the
+
+285
+00:10:05,600 --> 00:10:05,600
+video description.
+
+286
+00:10:32,220 --> 00:10:33,299
+Please make sure that
+
+287
+00:10:33,360 --> 00:10:34,879
+the column name required
+
+288
+00:10:34,879 --> 00:10:34,879
+for this add is
+
+289
+00:10:35,440 --> 00:10:35,539
+completely the same
+
+290
+00:10:35,539 --> 00:10:36,129
+as the topic ID,
+
+291
+00:10:37,620 --> 00:10:38,340
+including the size
+
+292
+00:10:38,340 --> 00:10:39,539
+and the width.
+
+293
+00:10:50,100 --> 00:10:50,500
+Next,
+
+294
+00:10:50,980 --> 00:10:52,200
+we will turn to Power
+
+295
+00:10:52,200 --> 00:10:53,740
+Apps and start to
+
+296
+00:10:53,740 --> 00:10:54,600
+enter the solution.
+
+297
+00:10:59,899 --> 00:11:00,740
+Please make sure that
+
+298
+00:11:00,740 --> 00:11:01,659
+when you create a account,
+
+299
+00:11:02,210 --> 00:11:02,700
+you will follow
+
+300
+00:11:02,700 --> 00:11:05,519
+the steps in the
+
+301
+00:11:05,519 --> 00:11:05,519
+video description.
+
+302
+00:11:06,179 --> 00:11:06,539
+When entering the
+
+303
+00:11:06,539 --> 00:11:07,480
+previous three options,
+
+304
+00:11:08,159 --> 00:11:08,620
+there is no need
+
+305
+00:11:08,840 --> 00:11:09,980
+to do the additional填
+
+306
+00:11:09,980 --> 00:11:10,929
+充 of the environment.
+
+307
+00:11:29,450 --> 00:11:30,000
+Next,
+
+308
+00:11:30,779 --> 00:11:31,679
+we will start to enter
+
+309
+00:11:31,679 --> 00:11:32,620
+the fourth solution.
+
+310
+00:11:33,679 --> 00:11:34,360
+Please make sure that
+
+311
+00:11:34,500 --> 00:11:35,480
+this step will involve
+
+312
+00:11:35,500 --> 00:11:36,740
+more environments to
+
+313
+00:11:36,740 --> 00:11:37,779
+enter the account.
+
+314
+00:11:50,100 --> 00:11:50,519
+Please make sure
+
+315
+00:11:50,519 --> 00:12:03,720
+that the column name
+
+316
+00:12:03,720 --> 00:12:05,259
+required for this
+
+317
+00:12:06,240 --> 00:12:09,720
+add is completely the
+
+318
+00:12:09,720 --> 00:12:10,980
+same as the topic ID,
+
+319
+00:12:11,799 --> 00:12:19,480
+including the size
+
+320
+00:12:19,480 --> 00:12:19,480
+and the width.
+
+321
+00:12:45,480 --> 00:12:45,879
+Please make sure
+
+322
+00:12:45,879 --> 00:12:45,879
+that the column
+
+323
+00:12:45,879 --> 00:12:45,879
+name required for
+
+324
+00:12:45,899 --> 00:12:46,820
+this add is completely the
+
+325
+00:12:46,860 --> 00:12:49,389
+same as the topic ID,
+
+326
+00:12:49,460 --> 00:12:49,460
+including the size
+
+327
+00:12:49,460 --> 00:12:49,460
+and the width.
+
+328
+00:13:15,740 --> 00:13:19,299
+Please make sure
+
+329
+00:13:19,299 --> 00:13:19,299
+that the column
+
+330
+00:13:19,299 --> 00:13:19,299
+name required for
+
+331
+00:13:19,299 --> 00:13:19,399
+this add is completely the
+
+332
+00:13:19,399 --> 00:13:19,399
+same as the topic ID,
+
+333
+00:13:19,440 --> 00:13:19,440
+including the size
+
+334
+00:13:19,440 --> 00:13:19,440
+and the width.
+
+335
+00:13:22,500 --> 00:13:23,000
+Then,
+
+336
+00:13:23,159 --> 00:13:23,919
+we will click on the
+
+337
+00:13:23,919 --> 00:13:24,759
+left side of the containers
+
+338
+00:13:25,090 --> 00:13:27,179
+to copy the name of
+
+339
+00:13:27,179 --> 00:13:27,179
+the new container,
+
+340
+00:13:27,700 --> 00:13:28,519
+which is Image,
+
+341
+00:13:29,039 --> 00:13:30,039
+and paste it into the
+
+342
+00:13:30,039 --> 00:13:30,399
+environment variable
+
+343
+00:13:30,399 --> 00:13:31,720
+blob container name.
+
+344
+00:14:03,409 --> 00:14:03,960
+Next,
+
+345
+00:14:04,779 --> 00:14:05,700
+we will start to enter
+
+346
+00:14:05,700 --> 00:14:06,559
+the fifth solution.
+
+347
+00:14:16,240 --> 00:14:16,700
+This is the
+
+348
+00:14:16,700 --> 00:14:17,419
+environment variable.
+
+349
+00:14:18,159 --> 00:14:18,779
+We will use the Inst
+
+350
+00:14:18,779 --> 00:14:19,360
+ance URL of PowerApp
+
+351
+00:14:19,360 --> 00:14:20,399
+s Session Detail.
+
+352
+00:14:42,769 --> 00:14:43,320
+Next,
+
+353
+00:14:44,059 --> 00:14:44,940
+we will start to enter
+
+354
+00:14:44,940 --> 00:14:45,779
+the sixth solution.
+
+355
+00:15:08,360 --> 00:15:09,220
+After all the
+
+356
+00:15:09,299 --> 00:15:10,080
+connections are created,
+
+357
+00:15:10,299 --> 00:15:11,519
+we need to choose
+
+358
+00:15:11,539 --> 00:15:13,320
+the sharepen site
+
+359
+00:15:13,320 --> 00:15:14,799
+URL and document
+
+360
+00:15:14,799 --> 00:15:15,960
+library used to make the
+
+361
+00:15:16,120 --> 00:15:16,620
+environment variable.
+
+362
+00:15:40,470 --> 00:15:41,539
+After all the solutions
+
+363
+00:15:41,539 --> 00:15:42,919
+are successfully entered,
+
+364
+00:15:43,169 --> 00:15:44,419
+we need to check
+
+365
+00:15:44,440 --> 00:15:44,980
+if the flow in each
+
+366
+00:15:44,980 --> 00:15:47,840
+solution has been opened.
+
+367
+00:16:14,179 --> 00:16:14,559
+If the flow
+
+368
+00:16:14,559 --> 00:16:14,840
+is not opened,
+
+369
+00:16:15,360 --> 00:16:16,740
+we can click on
+
+370
+00:16:16,740 --> 00:16:17,799
+the Turn On手
+
+371
+00:16:17,799 --> 00:16:18,860
+動 to open it.
+
+372
+00:16:19,620 --> 00:16:20,500
+Note that in the Knowledge
+
+373
+00:16:20,500 --> 00:16:21,759
+Hub solution solution,
+
+374
+00:16:23,019 --> 00:16:23,940
+there is a solution called
+
+375
+00:16:23,940 --> 00:16:26,000
+Answer Questions from FAQ,
+
+376
+00:16:26,879 --> 00:16:27,279
+which is a process
+
+377
+00:16:27,279 --> 00:16:27,840
+that is closed
+
+378
+00:16:27,840 --> 00:16:29,049
+without operation.
+
+379
+00:16:30,860 --> 00:16:31,120
+After checking
+
+380
+00:16:31,120 --> 00:16:32,279
+all the flow,
+
+381
+00:16:32,960 --> 00:16:33,919
+we need to click on
+
+382
+00:16:33,919 --> 00:16:35,769
+Publish All Customizations.
+
+383
+00:16:50,149 --> 00:16:50,600
+Next,
+
+384
+00:16:50,879 --> 00:16:51,379
+we will enter the
+
+385
+00:16:51,379 --> 00:16:52,200
+Knowledge Hub Admin
+
+386
+00:16:52,200 --> 00:16:53,340
+Center and delete
+
+387
+00:16:53,340 --> 00:16:54,200
+all the topics and
+
+388
+00:16:54,200 --> 00:16:54,620
+articles that are
+
+389
+00:16:54,620 --> 00:16:55,860
+brought by itself,
+
+390
+00:16:57,279 --> 00:16:58,000
+so as not to affect
+
+391
+00:16:58,000 --> 00:16:58,379
+the use later.
+
+392
+00:16:58,639 --> 00:17:00,620
+About how to upload
+
+393
+00:17:00,659 --> 00:17:02,639
+knowledge articles and the
+
+394
+00:17:02,639 --> 00:17:03,659
+Knowledge Hub Admin,
+
+395
+00:17:03,860 --> 00:17:05,740
+you can refer to
+
+396
+00:17:05,740 --> 00:17:06,859
+another video.
+
+397
+00:17:17,880 --> 00:17:18,380
+Finally,
+
+398
+00:17:23,039 --> 00:17:23,900
+we come to the Cop
+
+399
+00:17:23,900 --> 00:17:24,859
+ilot Studio interface.
+
+400
+00:17:24,970 --> 00:17:26,579
+Select the share environment
+
+401
+00:17:27,059 --> 00:17:27,740
+and press FA
+
+402
+00:17:27,740 --> 00:17:28,960
+Q Assistant trigger agent.
+
+403
+00:17:57,200 --> 00:17:58,599
+Select the share environment
+
+404
+00:17:58,599 --> 00:17:58,599
+and press the OK button.
+
+405
+00:17:58,599 --> 00:17:58,599
+Select the share environment
+
+406
+00:17:58,599 --> 00:18:02,740
+and press the OK button.
+
+407
+00:18:02,740 --> 00:18:02,900
+Select the share environment
+
+408
+00:18:02,900 --> 00:18:02,880
+and press the OK button.
