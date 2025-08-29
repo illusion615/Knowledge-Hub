@@ -21,7 +21,16 @@
   - Be able to create environment and Power Pages website
 - Able to create Azure service resources
 
-### Environment Requirements
+## Deployment
+### Azure Setup
+1. Activate Azure Services (Optional, must enable for document multi-modal recognition)
+   1. Azure Blob Storage
+   2. Azure Function
+
+> **Why Optional?** 
+If you don't have Azure resource or hard to activate it in some reason, such like internal process. You can use KB Hub Document Processing Tool to process document local and upload to cloud Dataverse
+
+2. Create environment
 - **Development Environment**
    - Region: US or Europe (based on developer location)
    - Language: English
@@ -36,24 +45,26 @@
    - Region: US or region closest to most users
    - Language: English
    - Type: Production
-
-## Deployment
-### Azure Setup
-1. Activate Azure Services (Optional, must enable for document multi-modal recognition)
-   1. Azure Blob Storage
-   2. Azure Function
-
-> **Why Optional?** 
-If you don't have Azure resource or hard to activate it in some reason, such like internal process. You can use KB Hub Document Processing Tool to process document local and upload to cloud Dataverse
-
-2. Create environment
 3. Environment settings
    - Enable PCF
    - Enable AI Builder preview features
-   - Email attachment size set to 102,400kb
-4. Create Power Page FAQ website
-5. Import solutions
-   1. [Creator Kit](https://learn.microsoft.com/en-us/power-platform/guidance/creator-kit/setup)
+   ![alt text](ebd9723d-3784-4029-b259-048c412d5e0a.png)
+   - Email attachment size set to 131,072kb
+   ![alt text](image.png)
+   - Enable your desired lanugage(for UI only, doesn't affect knowledge query quality)
+   ![alt text](image-5.png)
+  
+4. Create Power Page FAQ website (~10 min)
+- Creat from FAQ template
+![alt text](image-3.png)
+- Name it and choose your prefered lanugage(Additioanl language must enabled in Power Platform Admin Center before create website.)
+![alt text](image-4.png)
+1. Import solutions
+   1. [Creator Kit](https://learn.microsoft.com/en-us/power-platform/guidance/creator-kit/setup) ([Github](https://github.com/microsoft/powercat-creator-kit))
+      1. CreatorKitCore
+      2. CreatorKitAI
+      ![alt text](image-1.png)
    2. [PCF-Universal-Textbox-Fluent](https://github.com/illusion615/PCF-Universal-Textbox-Fluent/releases)
+   ![alt text](image-2.png)
    3. Power Platform AI Base
    4. Knowledge Hub Solution
